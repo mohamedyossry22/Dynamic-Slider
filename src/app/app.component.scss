@@ -11,7 +11,6 @@
     }
     .sliderBox {
         width: 50%;
-        height: 500px;
         box-shadow: 0px 5px 10px rgba($color: #460797, $alpha: 0.4);
         border-radius: 10px;
         .previewBox {
@@ -46,5 +45,17 @@
                 border-right: 1px solid #cbc5c5;
             }
         }
+    }
+
+    mat-icon {
+        background: linear-gradient(to top, #dd4848, #900a0a);
+        color: #FFF;
+        border-radius: 50%;
+        padding: 2px;
+        height: 30px;
+        font-size: 29px;
+        width: 35px;
+        margin:  0 10px;
+        cursor: pointer;
     }
 } 
